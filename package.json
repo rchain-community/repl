@@ -4,7 +4,7 @@
   "description": "Node.js based RNode REPL interface.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
     "grpc": "^1.15.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
