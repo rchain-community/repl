@@ -1,9 +1,9 @@
 const fs = require('fs')
-const path = require('path')
 const REPL = require('./lib/REPL')
 
 // Library mode:
 if (require.main !== module) {
+  module.exports = REPL
   return REPL
 }
 
