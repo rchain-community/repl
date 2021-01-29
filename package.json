@@ -27,7 +27,7 @@
   "homepage": "https://github.com/rchain-community/repl#readme",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
-    "grpc": "^1.15.1"
+    "grpc": "^1.24.4"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
