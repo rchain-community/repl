@@ -5,8 +5,15 @@
 This package enabled applications to use the interal gRPC interface of the
 [RChain](http://rchain.coop/) RNode server to execute Eval and Run commands.
 
+## Repo usage
 
-## Library usage
+- Clone project and run `npm i`
+```shell
+rnode-repl <program.rho> [host] [port]
+```
+
+
+## Library usage (old)
 
 Install using NPM:
 
